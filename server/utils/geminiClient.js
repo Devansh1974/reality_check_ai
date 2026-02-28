@@ -5,9 +5,9 @@ const API_URL = "https://openrouter.ai/api/v1/chat/completions";
 // Note: To use these free models, you MUST allow data sharing in your OpenRouter privacy settings:
 // https://openrouter.ai/settings/privacy
 const MODELS = [
-  "google/gemini-2.5-flash:free",
+  "google/gemma-3-27b-it:free",
   "meta-llama/llama-3.3-70b-instruct:free",
-  "qwen/qwen-2.5-coder-32b-instruct:free",
+  "mistralai/mistral-small-3.1-24b-instruct:free",
 ];
 
 async function generateResponse(prompt, retries = 1) {
